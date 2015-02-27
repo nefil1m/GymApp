@@ -7,4 +7,6 @@ app.all('/*', function(req, res) {
   res.sendFile('/app/index.html', { root: __dirname });
 });
 
-var server = app.listen(7000);
+var server = require('http').createServer(app).listen(7000, function() {
+  console.log('Listening 7000');
+});

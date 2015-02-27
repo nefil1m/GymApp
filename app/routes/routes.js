@@ -1,9 +1,9 @@
 var appRoutes = angular.module('app.routes', ['ui.router'])
   .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('');
 
     $stateProvider
-      .state('/', {
+      .state('', {
         url: '/',
         templateUrl: 'app/views/app.html'
       })

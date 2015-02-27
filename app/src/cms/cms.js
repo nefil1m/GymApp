@@ -1,1 +1,2 @@
-alert('cms.js');
+console.log('cms.js');
+console.log('asdasdjs');

@@ -2,3 +2,7 @@ node_modules/*
 node_modules
 app/assets/bower_components/*
 app/assets/bower_components
+.tmp/*
+.tmp
+dist/*
+dist
